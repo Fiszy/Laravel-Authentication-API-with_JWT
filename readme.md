@@ -3,13 +3,14 @@
 
 
 Authentication API laravel with JWT
-
--composer update
+Clone the repository<br><br>
+git clone https://github.com/Fiszy/Laravel-Authentication-API-with_JWT.git my_auth_app<br><br>
+-composer install
 
 -php artisan migrate<br>
 -php artisan key:generate<br>
 -php artisan jwt:secret<br>
--php artisan key:serve<br>
+-php artisan serve:serve<br>
 
 
 ## User Registration
