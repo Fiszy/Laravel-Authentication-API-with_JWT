@@ -6,10 +6,10 @@ Authentication API laravel with JWT
 
 -composer update
 
--php artisan migrate
--php artisan key:generate
--php artisan jwt:secret;
--php artisan key:serve
+-php artisan migrate<br>
+-php artisan key:generate<br>
+-php artisan jwt:secret<br>
+-php artisan key:serve<br>
 
 
 ## User Registration
